@@ -1,5 +1,0 @@
-# Loup-garou
-
-------
-
-## Test
