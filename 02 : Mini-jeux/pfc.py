@@ -12,8 +12,8 @@ def pfc() :
     while victoires < reponse and défaites < reponse :
         print('Pierre, Feuille ou Ciseaux ? (P/F/C)')
         choix = input()
-        #if choix != 'P' or 'F' or 'C' :
-         #   print("Inscris P, F ou C.")
+        while choix != 'P' and choix != 'F' and choix != 'C' :
+            print("Inscris P, F ou C.")
         options = ['P', 'F', 'C']
         choix_pc = random.choice(options)
         if choix == choix_pc :
